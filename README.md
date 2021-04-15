@@ -1,5 +1,13 @@
 ## A List of Foundational Haskell Papers
 
+### A Quick Note about Licensing
+
+This repo is a collection of _links_ to various papers, and as such, may go out of date intermittently as resources shuffle around the web. It would be greatly appreciated if people raise issues when these pdf's have dead links, as it helps us all maintain the most up to date set of resources. Additionally, you may find that the "set of links" approach is tedious. This is done to avoid any sort of licensing concerns. If anyone has a better idea of the implications (especially licensing) of hosting the actual papers, the end goal would ideally be to serve as a kind of library. Feel free to find me to discuss. 
+
+Thanks, Emily.
+
+#### History
+
 - [A History of Haskell: being lazy with class](https://www.iro.umontreal.ca/~monnier/2035/history.pdf)
 
 #### The Beginning: The Eugenio Moggi Papers
@@ -18,10 +26,9 @@
 - [Semantics](https://www.microsoft.com/en-us/research/wp-content/uploads/1991/03/A-Static-Semantics-for-Haskell_small.pdf)
 - [How to make ad hoc polymorphism less ad hoc](https://people.csail.mit.edu/dnj/teaching/6898/papers/wadler88.pdf)
 - [Type Classes](https://www.microsoft.com/en-us/research/wp-content/uploads/1994/04/classhask.pdf)
-- [Lazy State Threads](https://www.microsoft.com/en-us/research/wp-content/uploads/1994/06/lazy-functional-state-threads.pdf)
-- [General State](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/07/state-lasc.pdf)
-- [The Spineless Tagless G-machine](https://www.microsoft.com/en-us/research/wp-content/uploads/1992/04/spineless-tagless-gmachine.pdf)
 - [An Exploration of the Design space of Type Classes](https://www.microsoft.com/en-us/research/wp-content/uploads/1997/01/multi.pdf)
+- [A Generic Deriving Mechanism for Haskell](http://dreixel.net/research/pdf/gdmh.pdf)
+- [True Sums of Products](http://edsko.net/pubs/TrueSumsOfProducts.pdf)
 - [Functional Dependencies](https://www.cs.tufts.edu/comp/150FP/archive/mark-jones/fundeps.pdf)
 - [Rank-n Types](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/putting.pdf?from=https%3A%2F%2Fresearch.microsoft.com%2Fen-us%2Fum%2Fpeople%2Fsimonpj%2Fpapers%2Fhigher-rank%2Fputting.pdf)
 - [Typing Haskell in Haskell](https://web.cecs.pdx.edu/~mpj/thih/thih.pdf)
@@ -30,9 +37,20 @@
 - [GADTs](https://ecommons.cornell.edu/bitstream/handle/1813/5614/TR2003-1901.pdf?sequence=1)
 - [First Class Modules in Haskell](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/first_class_modules.pdf)
 - [Kind Promotion](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/p53-yorgey.pdf)
+- [Kleisli Arrows of Outrageous Fortune](https://personal.cis.strath.ac.uk/conor.mcbride/Kleisli.pdf)
+
+#### Under the Hood (Where the sausage is made)
+
+- [Let-floating](https://www.microsoft.com/en-us/research/wp-content/uploads/1996/05/float.pdf)
+- [Parallel Garbage Collection](https://simonmar.github.io/bib/papers/parallel-gc.pdf)
+- [Tackling the Awkward Squad](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/07/mark.pdf?from=https%3A%2F%2Fresearch.microsoft.com%2Fen-us%2Fum%2Fpeople%2Fsimonpj%2Fpapers%2Fmarktoberdorf%2Fmark.pdf)
+- [Lazy State Threads](https://www.microsoft.com/en-us/research/wp-content/uploads/1994/06/lazy-functional-state-threads.pdf)
+- [General State](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/07/state-lasc.pdf)
+- [The Spineless Tagless G-machine](https://www.microsoft.com/en-us/research/wp-content/uploads/1992/04/spineless-tagless-gmachine.pdf)
+- [Making a Fast Curry - (STG Sequel)](https://www.cs.tufts.edu/comp/150FP/archive/simon-peyton-jones/eval-apply-jfp.pdf)
 - [Stream Fusion. From Lists to Streams to Nothing at All](http://fun.cs.tufts.edu/stream-fusion.pdf)
 
-#### Type Systems
+#### Type Systems and Lambda Calculi
 
 - [Lambda Calculus with Types](http://www.cse.chalmers.se/research/group/logic/TypesSS05/Extra/geuvers.pdf)
 - [The Call by Need Lambda Calculus](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.56.1889&rep=rep1&type=pdf)
